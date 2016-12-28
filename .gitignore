@@ -1,0 +1,12 @@
+   public void sq()
+        {
+            pictureBox1.Image = bmp; 
+            for (int i = m; i <= m + u; i++)
+            {
+                for (int j = n; j <= n + p; j++)
+                {
+                    bmp.SetPixel(i, j, colorDialog1.Color);
+
+                }
+            }
+        }
